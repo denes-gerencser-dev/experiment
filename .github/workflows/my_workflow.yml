@@ -1,0 +1,20 @@
+name:
+  my-workflow
+
+on:
+  push:
+    branches: ["master"]
+
+  pull_request:
+    branches: ["master"]
+
+
+jobs:
+  job_01:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: First command
+        run: echo First command!
+
+
