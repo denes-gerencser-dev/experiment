@@ -16,5 +16,6 @@ jobs:
     steps:
       - name: First command
         run: echo First command!
-
+      - name: 2nd command
+        run: echo 2nd command!
 
