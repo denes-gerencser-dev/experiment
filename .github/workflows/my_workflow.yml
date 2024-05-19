@@ -12,6 +12,9 @@ on:
 jobs:
   job_01:
     runs-on: ubuntu-latest
+    env: 
+      MY_VAR: "my_value"
+
 
     steps:
       - name: First command
