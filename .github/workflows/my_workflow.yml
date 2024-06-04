@@ -23,7 +23,7 @@ jobs:
         run: echo setting env. var.
       
       - name: Second command
-        run: echo "The value is $MY_VAR"
+        run: echo "The value is - $MY_VAR"
 
 
   job_02:
